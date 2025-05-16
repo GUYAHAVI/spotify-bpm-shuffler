@@ -1,0 +1,28 @@
+{
+  "name": "spotify-bpm-shuffler",
+  "version": "1.0.0",
+  "description": "This is a personal project for testing my modified shuffle algorithm aimed at improving the music listening experience",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUYAHAVI/spotify-bpm-shuffler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUYAHAVI/spotify-bpm-shuffler/issues"
+  },
+  "homepage": "https://github.com/GUYAHAVI/spotify-bpm-shuffler#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
